@@ -2,10 +2,12 @@
 
 **Project Title**: End-to-End Machine Learning Pipeline & Interactive Deployment for Vendor Freight Cost Forecasting  
 **Course / Assessment**: Formative Assessment-02 (ADSFA2)  
-**Deliverables**:
-1. Jupyter Notebook: [`notebooks/eda_and_modeling.ipynb`](../notebooks/eda_and_modeling.ipynb) (and root copy [`eda_and_modeling.ipynb`](../eda_and_modeling.ipynb))
-2. Streamlit Application: [`app.py`](../app.py)
-3. Summary Report: [`report/FA2_Summary_Report.md`](FA2_Summary_Report.md) & [`README.md`](../README.md)
+**Deliverables & Deployment**:
+- 🚀 **Live Web Application**: [https://adsfa2-machine-learning.streamlit.app/](https://adsfa2-machine-learning.streamlit.app/)
+- 📓 **Jupyter Notebook**: [`notebooks/eda_and_modeling.ipynb`](../notebooks/eda_and_modeling.ipynb) (and root copy [`eda_and_modeling.ipynb`](../eda_and_modeling.ipynb))
+- 🌐 **Streamlit Application**: [`app.py`](../app.py)
+- 📄 **Executive HTML Report**: [`report/FA2_Report.html`](FA2_Report.html)
+- 📑 **Summary Report**: [`report/FA2_Summary_Report.md`](FA2_Summary_Report.md) & [`README.md`](../README.md)
 
 ---
 
@@ -90,8 +92,7 @@ Hyperparameter optimization was performed on the **Random Forest Regressor** usi
 ---
 
 ## 4. Part 3: Streamlit Web Deployment
-
-The deployment script [`app.py`](../app.py) delivers an intuitive, interactive analytics dashboard:
+The deployment script [`app.py`](../app.py) delivers an intuitive, interactive analytics dashboard live at **[https://adsfa2-machine-learning.streamlit.app/](https://adsfa2-machine-learning.streamlit.app/)**:
 
 1. **Model Selector**: Allows users to dynamically switch between all 4 candidate models plus the Tuned Random Forest model.
 2. **Interactive Input Sliders & Inputs**:

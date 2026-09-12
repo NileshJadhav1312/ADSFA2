@@ -3,12 +3,19 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.25+-red.svg)](https://streamlit.io/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-orange.svg)](https://scikit-learn.org/)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B.svg?logo=streamlit)](https://invoiceanalysis3304.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B.svg?logo=streamlit)](https://adsfa2-machine-learning.streamlit.app/)
 [![Dataset](https://img.shields.io/badge/Dataset-Google%20Drive-34A853.svg?logo=googledrive)](https://drive.google.com/file/d/1o6S9N0j77qM4fd9kbdE2gw2V1TVeh5Ey/view?usp=sharing)
 
 ## 🌐 Live Application
-> 🚀 **Live Demo URL**: **[https://invoiceanalysis3304.streamlit.app/](https://invoiceanalysis3304.streamlit.app/)**  
+> 🚀 **Live Demo URL**: **[https://adsfa2-machine-learning.streamlit.app/](https://adsfa2-machine-learning.streamlit.app/)**  
 > Access the deployed interactive web portal directly in your browser without local setup.
+
+---
+
+## 📸 Web Application Interface Preview
+| Scenario Presets & Feature Sliders | Real-Time Predictions & Consensus Grid |
+| :---: | :---: |
+| ![App Input Controls](images/app_ui_input.png) | ![Prediction Output](images/app_ui_prediction.png) |
 
 ---
 
@@ -16,8 +23,8 @@
 This project builds an end-to-end Machine Learning solution to predict commercial vendor freight costs from the internal SQLite database (`data/inventory.db`, table: `vendor_invoice`). Developed for **Formative Assessment-02**, it demonstrates:
 1. **Data Acquisition & Preprocessing**: Rigorous EDA, outlier capping (IQR), feature engineering (`days_po_to_invoice`, `Price_per_Unit`), and standard scaling.
 2. **Model Implementation & Benchmarking**: Implementation of 4 distinct regression architectures + GridSearchCV tuning.
-3. **Model Deployment**: Interactive Streamlit application (`app.py`) allowing model selection and real-time multi-model comparison.
-4. **Final Deliverables**: Executed Jupyter notebook (`notebooks/eda_and_modeling.ipynb`), Streamlit app (`app.py`), and print-ready HTML/PDF report (`report/FA2_Report.html`).
+3. **Model Deployment**: Interactive Streamlit application (`app.py`) allowing model selection, scenario presets, and real-time multi-model comparison.
+4. **Final Deliverables**: Executed Jupyter notebook (`notebooks/eda_and_modeling.ipynb`), interactive Streamlit app (`app.py`), and comprehensive executive HTML report ([`FA2_Report.html`](FA2_Report.html)).
 
 ---
 
